@@ -20,7 +20,7 @@ This is my personal portfolio website to showcase my skills, projects, experienc
 
 🔗 Live Demo
 You can visit the live version of my portfolio at:
-
+[Faijul Karim Portfolio](https://faijulkarim.github.io/Portfolio-Projects/)
 
 📬 Contact
 If you have any queries, feel free to reach out to me:
