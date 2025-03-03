@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faijul Karim || Portfolio Website</title>
+    <link rel="shortcut icon" href="/images/Md-Faijul-Karim.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <img src="./images/logo.png" alt="Logo" class="Logo-img">
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" onclick="closeMenu()">Home</a></li>
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-container" id="hero">
+        <h1 class="hero-header">Hi, I'm <span class="span-tag">Faijul Karim.</span></h1>
+        <p class="hero-p">I am a final-year Electrical and Electronic Engineering student with experience in programming, web development, and app development. I have skills in Java, Python, JavaScript, PHP, and IoT-based projects. I am passionate about robotics, artificial intelligence, and cybersecurity. I love exploring new technologies and working on innovative projects to solve real-world problems.</p>
+        <button class="hero-btn">Hire Me</button>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-min-area" id="about">
+        <div class="container">
+            <h2 style="text-align: center; font-size: 30px;">About Me</h2>
+            <div class="row">
+                <div class="box1 col-md-6">
+                    <div class="portfolio-img">
+                        <img src="./images/Md-Faijul-Karim.jpg" alt="Portfolio-Images" style="height: 230px; width: 230px; border-radius: 10px;">
+                    </div>
+                    <div class="box1-content">
+                        <p class="margin-pera-area"><i class="fa fa-user" aria-hidden="true"></i> <b>Name: </b>Md. Faijul Karim</p>
+                        <p class="margin-pera-area"><i class="fa fa-user" aria-hidden="true"></i> <b>Profile: </b>Full Stack Web Developer</p>
+                        <p class="margin-pera-area"><i class="fas fa-envelope"></i> <b>Email: </b>faijulkarim81030@gmail.com</p>
+                        <p class="margin-pera-area"><i class="fas fa-address-book"></i> <b>Contact: </b>+8801794-078737</p>
+                    </div>
+                </div>
+                <div class="box2 col-md-6">
+                    <h2>Who am I?</h2>
+                    <p>I am a final-year Electrical and Electronic Engineering student with experience in programming, web development, and app development. I have skills in Java, Python, JavaScript, PHP, and IoT-based projects. I am passionate about robotics, artificial intelligence, and cybersecurity. I love exploring new technologies and working on innovative projects to solve real-world problems.</p>
+                    <button class="btn" onclick="openCV()">Resume</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills Section-->
+    <section class="skill_area" id="skills">
+        <h2 style="text-align: center; margin-top: 100px;">My Skill</h2>
+        <div class="skill_item">
+            <a href="#" class="skill"> HTML </a>
+            <a href="#" class="skill"> CSS </a>
+            <a href="#" class="skill"> JavaScript </a>
+            <a href="#" class="skill"> PHP </a>
+            <a href="#" class="skill"> Laravel </a>
+            <a href="#" class="skill"> Python </a>
+            <a href="#" class="skill"> Django </a>
+            <a href="#" class="skill"> Wordpress </a>
+            <a href="#" class="skill"> Ethical Hacking </a>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section class="contact_area" id="contact">
+        <div class="shadow_area">
+            <h2 style="text-align: center; margin-top: 40px; margin-bottom: 50px;">Contact US</h2>
+            <div class="contact_item_area">
+                <form action="https://formsubmit.co/faijulkarim81030@gmail.com" method="POST">
+                    <input type="text" class="contact_item" name="name" placeholder="Enter your name" required>
+                    <input type="email" class="contact_item" name="email" placeholder="Enter your email" required>
+                    <textarea name="message" class="contact_item" placeholder="Enter your message" required></textarea>
+                    <button type="submit" class="btn btn-style"> Submit now </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--footer section-->
+    <section class="footer">
+        <footer class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> Copyright || All Rights Reserved by 
+                <span class="span-tag">LearnLoop</span>
+            </p>
+        </footer>
+    </section>
+    
+
+    <!--Simple Javascript Section-->
+    <script>
+        function toggleMenu() {
+        document.querySelector(".nav-links").classList.toggle("show");
+        }
+        function closeMenu() {
+        document.querySelector(".nav-links").classList.remove("show");
+        }
+
+        function openCV() {
+        window.open('https://shorturl.at/EDpJF', '_blank');
+        }
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
