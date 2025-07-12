@@ -24,5 +24,5 @@ You can visit the live version of my portfolio at:
 
 📬 Contact
 If you have any queries, feel free to reach out to me:
-- LinkedIn: [Faijul Karim](https://www.linkedin.com/in/faijulkarim)
+- LinkedIn: [Faijul Karim](https://www.linkedin.com/in/faijul-karim/)
 
