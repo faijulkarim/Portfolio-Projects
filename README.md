@@ -24,7 +24,5 @@ You can visit the live version of my portfolio at:
 
 📬 Contact
 If you have any queries, feel free to reach out to me:
-- Email: faijulkarim81030@gmail.com
-- Phone: +8801794-078737
 - LinkedIn: [Faijul Karim](https://www.linkedin.com/in/faijulkarim)
 
